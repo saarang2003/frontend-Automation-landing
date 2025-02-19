@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import image from '../assets/image.jpg';
+import group5 from '../assets/group5.jpg';
+import image4 from '../assets/image4.jpg';
 
 function Hero() {
   return (
@@ -28,24 +30,26 @@ function Hero() {
       </div>
       {/* Second div */}
 
-      <div className='md:flex gap-4  justify-evenly mt-8 mx-auto'>
-        {/* Image1 */}
-        <div className=' hidden  md:block w-72 h-60 p-5 border-2 border-gray-500 rounded-lg shadow-lg text-center'>
-          imag1 
-          </div>
+     
+      <div className='md:flex gap-4 justify-evenly mt-8 mx-auto items-end'>
+  {/* Image 1 */}
+  <div className='md:block w-80 h-72 p-5 border-2 border-gray-500 rounded-lg shadow-lg text-center'>
+  <img src={image4} alt="hero image" className='w-full h-full object-cover rounded-3xl' />
+  </div>
 
-          {/* Image 2  */}
-          <div className="w-[600px] h-[475px] max-w-sm border-1 rounded-3xl shadow-lg text-center ">
-            <img src={image} alt="hero image" className='w-full h-full object-cover rounded-3xl' />
-          </div>
+  {/* Image 2 */}
+  <div className="w-[600px] h-[475px] max-w-sm border-1 rounded-3xl shadow-lg text-center">
+    <img src={image} alt="hero image" className='w-full h-full object-cover rounded-3xl' />
+  </div>
 
-            {/* Image3 */}
-     <div className=' hidden md:block w-80 h-72 p-5 border-2 border-gray-500 text-center'>
-          imag2 
-          </div>
+  {/* Image 3 */}
+  <div className='md:block w-80 h-72 p-5 border-2 border-gray-500 rounded-lg shadow-lg text-center'>
+  <img src={group5} alt="hero image" className='w-full h-full object-cover rounded-3xl' />
+  </div>
+</div>
 
-        
-      </div>
+
+
     </div>
   )
 }

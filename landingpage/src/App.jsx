@@ -8,7 +8,7 @@ import HowItWorks from './sections/HowitWorks';
 import Testimonials from './sections/testimonials';
 import Pricing from './sections/Pricing';
 import Contact from './sections/Contact';
-;
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Testimonials />
       <Pricing />
       <Contact />
+      <Footer />
     </div>
   )
 }

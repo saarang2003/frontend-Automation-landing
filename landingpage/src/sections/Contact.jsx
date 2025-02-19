@@ -8,13 +8,14 @@ function Contact() {
         <h1 className="text-3xl font-inter mt-4 font-bold">
           Ready to Automate Your Success?
         </h1>
-        <h1 className="text-xl mt-2">
+        <h1 className="text-sm text-[#302D2D] mt-2">
           Let's build the future of your business together
         </h1>
       </div>
 
       {/* Right Content (Form) */}
       <div className="md:w-1/2 mt-6 md:mt-0">
+      <h1 className="text-2xl text-center md:text-left text-[#302D2D]  md:text-3xl font-inter font-bold">Enter Your Details</h1>
         <form action="post" className="flex flex-col">
           <input
             type="text"
@@ -23,7 +24,7 @@ function Contact() {
           />
           <input
             type="text"
-            placeholder="Enter your full Name"
+            placeholder="Enter your email"
             className="w-full border-2 border-gray-500 bg-[#D9D9D9] text-[#302D2D] rounded-full p-4 mt-6"
           />
 

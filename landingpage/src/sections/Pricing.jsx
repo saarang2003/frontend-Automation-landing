@@ -92,7 +92,7 @@ const PricingTable = () => {
 
   return (
     <div className="flex flex-col">
-      <h1 className="text-3xl font-inter  font-bold text-center">Pricing</h1>
+      <h1 className="text-4xl font-inter  font-bold text-center">Pricing</h1>
       <div className="flex flex-col justify-center  p-6">
         <div className="flex justify-center max-w-md mx-auto mb-8">
           <div className="relative flex w-full  bg-white rounded-full shadow text-center">
