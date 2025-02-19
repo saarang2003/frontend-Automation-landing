@@ -7,6 +7,7 @@ import Whyus from './sections/Whyus';
 import HowItWorks from './sections/HowitWorks';
 import Testimonials from './sections/testimonials';
 import Pricing from './sections/Pricing';
+import Contact from './sections/Contact';
 ;
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <HowItWorks />
       <Testimonials />
       <Pricing />
+      <Contact />
     </div>
   )
 }

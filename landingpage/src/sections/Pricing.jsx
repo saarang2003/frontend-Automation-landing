@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const PricingCard = ({ title, price, features, isPopular }) => {
   return (
-    <div className="relative flex flex-col h-full p-6 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 shadow-md">
+    <div className="relative flex flex-col h-full p-6 rounded-2xl bg-white shadow-md">
       {isPopular && (
         <div className="absolute top-0 right-0 mr-6 -mt-4">
           <div className="inline-flex items-center text-xs font-semibold py-1.5 px-3 bg-emerald-500 text-white rounded-full shadow-sm">
