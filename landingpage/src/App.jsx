@@ -5,6 +5,8 @@ import Hero from './sections/Hero';
 import Trusted from './sections/Trusted';
 import Whyus from './sections/Whyus';
 import HowItWorks from './sections/HowitWorks';
+import Testimonials from './sections/testimonials';
+import Pricing from './sections/Pricing';
 ;
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Trusted />
       <Whyus />
       <HowItWorks />
+      <Testimonials />
+      <Pricing />
     </div>
   )
 }
