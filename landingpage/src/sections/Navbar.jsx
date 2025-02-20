@@ -10,10 +10,10 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+<nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-[#D3CDF9] ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="#"
+            href=""
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
@@ -75,23 +75,23 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#whychooseus"
                   className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
-                  About
+                  Why Choose Us
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#howitworks"
                   className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
-                  Services
+                How It Works
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
                   Contact

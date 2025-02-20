@@ -5,8 +5,8 @@ import React from "react";
 
 function Whyus() {
   return (
-    <div className="flex flex-col w-full justify-between mx-auto p-12 ">
-      <h1 className="text-3xl font-inter font-bold text-center">
+    <div id="whychooseus" className="flex flex-col w-full justify-between mx-auto p-12 ">
+      <h1 className="text-4xl  font-bold text-center">
         Why Choose Us?
       </h1>
       <h1 className="text-xl font-inter tracking-tight text-gray-500 mt-4 text-center">

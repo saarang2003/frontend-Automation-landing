@@ -1,11 +1,12 @@
+import { ShineBorder } from "@/components/magicui/shine-border";
 import React from "react";
 
 function Contact() {
   return (
-    <div className="flex flex-col md:flex-row w-full justify-between mx-auto p-12 border-2 border-gray-400">
+    <div id="contact" className="flex flex-col md:flex-row w-full justify-between mx-auto p-12 ">
       {/* Left Content (Headings) */}
       <div className="md:w-1/2 text-center md:text-left">
-        <h1 className="text-3xl font-inter mt-4 font-bold">
+        <h1 className="text-4xl mt-4 font-bold">
           Ready to Automate Your Success?
         </h1>
         <h1 className="text-sm text-[#302D2D] mt-2">
@@ -15,17 +16,18 @@ function Contact() {
 
       {/* Right Content (Form) */}
       <div className="md:w-1/2 mt-6 md:mt-0">
-      <h1 className="text-2xl text-center md:text-left text-[#302D2D]  md:text-3xl font-inter font-bold">Enter Your Details</h1>
+      <h1 className="text-left  text-2xl md:text-center  text-[#302D2D]  md:text-3xl font-inter font-bold">Enter Your Details</h1>
         <form action="post" className="flex flex-col">
           <input
             type="text"
             placeholder="Enter your full Name"
-            className="w-full border-2 border-gray-500 bg-[#D9D9D9] text-[#302D2D] rounded-full p-4 mt-6"
+            className="w-full border-2 border-[#A07CFE] bg-white text-[#D3CDF9] rounded-full p-4 mt-6"
           />
+
           <input
             type="text"
             placeholder="Enter your email"
-            className="w-full border-2 border-gray-500 bg-[#D9D9D9] text-[#302D2D] rounded-full p-4 mt-6"
+            className="w-full border-2  border-[#A07CFE] bg-white text-[#D3CDF9] rounded-full p-4 mt-6"
           />
 
           {/* Button: Centered on small screens, Left-aligned on md+ */}
@@ -46,3 +48,5 @@ function Contact() {
 }
 
 export default Contact;
+
+

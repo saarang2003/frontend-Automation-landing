@@ -6,14 +6,14 @@ function Footer() {
   return (
     <div className='flex flex-col md:flex-row w-full justify-between gap-6 mx-auto p-12 border-2 bg-[#6046CF] border-gray-400 text-white'>
       {/* Left side */}
-      <div className='text-center md:text-left mb-6 md:mb-0'>
+      <div className='hidden md:block text-center md:text-left mb-6 md:mb-0'>
   <img src={image} alt="icons image" className='inline-block m-2' />
   <span className='font-bold text-3xl'>AutoFlow</span>
   <h1 className='text-4xl font-bold mt-2'>Ready To Get Your Efficiency To 100X</h1>
 </div>
 
       {/* Right side - Navigation links */}
-      <div className='grid grid-cols-2 md:grid-cols-4  justify-between items-center gap-6 text-sm'>
+      <div className='grid grid-cols-3 md:grid-cols-4  justify-between items-center gap-6 text-sm'>
         <div>
           <h2 className='font-semibold mb-2'>Legal</h2>
           <ul className='space-y-1'>

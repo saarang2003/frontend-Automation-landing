@@ -100,7 +100,7 @@ export function MarqueeDemo() {
 
 function Testimonials() {
   return (
-    <div  className='flex flex-col w-full justify-between mx-auto p-12 border-2 border-gray-500'>
+    <div  className='flex flex-col w-full justify-between mx-auto p-12 '>
         <h1 className='text-3xl font-inter mt-4 font-bold text-center'>
         See What Our People Are  
         Saying About Us
