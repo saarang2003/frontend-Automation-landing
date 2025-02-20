@@ -16,7 +16,7 @@ function Whyus() {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 gap-x-6 lg:grid-cols-4  mt-6 w-full justify-center">
   {/* Card 1 */}
   <div className="flex justify-center">
-    <ShineBorder className="relative w-[300px] h-[300px] rounded-lg shadow-lg p-0" color={["#A07CFE", "#FE8FB5", "#6046CF"]}>
+    <ShineBorder className="relative w-[300px] h-[300px] rounded-lg shadow-xl p-0" color={["#A07CFE", "#FE8FB5", "#6046CF"]}>
       <div className="w-full h-full flex flex-col gap-1 text-center p-5 bg-[#F6F7F9] border border-gray-50 rounded-lg shadow-xl">
         <div className="w-16 h-16 flex items-center justify-center rounded-full border-2 border-[#6046CF] shadow-lg">
           <UserRoundCog size={30} />
